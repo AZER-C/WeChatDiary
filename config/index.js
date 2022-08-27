@@ -6,30 +6,41 @@ const CONFIG = {
   // ================================高级配置 - 需要修改================================
 
   // 微信公众号的appID
-  APP_ID: "",
+  APP_ID: "wx799dc1ee723928b2",
 
   // 微信公众号的appsecret
-  APP_SECRET: "",
+  APP_SECRET: "763734a8874976073bc8ff3409b60fbc",
 
   // 微信公众号的模板ID
-  TEMPLATE_ID: "",
+  TEMPLATE_ID: "YJ5uZxIQEN50SnG6hPi44uQu5e175mz1d6g4F1rCAjg",
 
   // 天行API的key
-  TXApiKey: "",
+  TXApiKey: "b9ad2566cae4b3ebd002e460eeea4484",
 
   // 用户列表 可配置多个用户
   user: [
     {
       // 男(女)朋友的名字（或昵称或网名）
-      userName: "小沐沐吖",
+      userName: "二哥",
       // 用户列表的`微信号`
-      userId: "",
+      userId: "o-DOp5vFDpoJQ-m5u5rfgnYteRRw",
       // 星座
-      star: "摩羯座",
+      star: "狮子座",
       // 生日 - 格式：08-22
-      birthday: "01-28",
+      birthday: "08-16",
       // 城市 - 格式：支持省市县区
-      city: "夏邑县",
+      city: "哈尔滨",
+    },{
+      // 男(女)朋友的名字（或昵称或网名）
+      userName: "三弟",
+      // 用户列表的`微信号`
+      userId: "o-DOp5qz4NKrMLFT6zpEWoesPPeg",
+      // 星座
+      star: "处女座",
+      // 生日 - 格式：08-22
+      birthday: "08-27",
+      // 城市 - 格式：支持省市县区
+      city: "深圳",
     },
   ],
 
@@ -51,15 +62,15 @@ const CONFIG = {
     // 星座运势
     star: true,
     // 土味情话
-    saylove: true,
+    saylove: false,
     // 健康小提示
-    healthtip: true,
+    healthtip: false,
     // 毒鸡汤
-    duJiTang: true,
+    duJiTang: false,
     // 早安心语
     zaoAn: true,
     // 晚安心语
-    wanAn: true,
+    wanAn: false,
     // 彩虹屁
     caiHongPi: true,
   },
